@@ -1,0 +1,4 @@
+*.ipynb
+*.csv
+*.log
+src/__pycache__/*
