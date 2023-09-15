@@ -16,6 +16,7 @@ PBAR_LOCK = threading.Lock()
 
 
 class US10YRCrawler:
+    """A crawler that downloads US10YR historical data"""
 
     def __init__(self, req_info: Dict[str, str], save_fp: str,
                  dates: Tuple[datetime, datetime]) -> None:
